@@ -129,6 +129,6 @@ public class MainActivity extends AppCompatActivity {
             protected void onPostExecute(String s) {
                 show.setText(s);
             }
-        }.execute("http://fanyi.youdao.com/openapi.do?keyfrom=<keyfrom>&key=<key>&type=data&doctype=json&version=1.1&q=question");
+        }.execute("http://fanyi.youdao.com/openapi.do?keyfrom=kekekekke&key=1021792329&type=data&doctype=json&version=1.1&q=question");
     }
 }
