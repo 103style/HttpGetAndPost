@@ -129,6 +129,6 @@ public class MainActivity extends AppCompatActivity {
             protected void onPostExecute(String s) {
                 show.setText(s);
             }
-        }.execute("http://114.55.3.237:8090/cloudStudent/webService/newsService/news/imageList/1/3");
+        }.execute("http://fanyi.youdao.com/openapi.do?keyfrom=<keyfrom>&key=<key>&type=data&doctype=json&version=1.1&q=question");
     }
 }
